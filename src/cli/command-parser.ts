@@ -7,8 +7,8 @@ export class CommandParser {
 
     for (const argument of cliArguments) {
       if (argument.startsWith('--')) {
-        parsedCommand[currentCommand] = [];
         currentCommand = argument;
+        parsedCommand[currentCommand] = [];
       } else if (currentCommand && argument){
         parsedCommand[currentCommand].push(argument);
       }

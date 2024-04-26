@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import chalk from 'chalk';
 import { Command } from './command.interface.js';
 
 type PackageJSONConfig = {
@@ -34,7 +35,7 @@ export class VersionCommand implements Command {
   public async execute(..._params: string[]): Promise<void> {
     try {
       const version = this.readVersion();
-      console.info(version);
+      console.info(`Version: ${chalk.green(version)}`);
     } catch (error: unknown) {
       console.error(`Failed to read version from ${this.filePath}`);
 

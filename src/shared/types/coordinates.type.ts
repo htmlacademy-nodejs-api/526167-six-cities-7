@@ -1,1 +1,4 @@
-export type Coordinates = [number, number];
+export type Coordinates = {
+  latitude: number;
+  longitude: number;
+};

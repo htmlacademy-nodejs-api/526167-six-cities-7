@@ -1,12 +1,13 @@
-import { Cities } from "./cities.enum.js";
-import { Coordinates } from "./coordinates.type.js";
-import { Facilities } from "./facilities.enum.js";
-import { RealState } from "./real-state.enum.js";
+import { Cities } from './cities.enum.js';
+import { Coordinates } from './coordinates.type.js';
+import { Facilities } from './facilities.enum.js';
+import { RealState } from './real-state.enum.js';
+import { User } from './user.type.js';
 
 export type Offer = {
   caption: string;
   description: string;
-  createdAt: string;
+  createdAt: Date;
   city: Cities;
   thumbnail: string;
   gallery: string[];
@@ -19,4 +20,5 @@ export type Offer = {
   rent: number;
   facilities: Facilities[];
   coordinates: Coordinates;
+  user: User;
 };

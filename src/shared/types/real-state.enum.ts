@@ -3,4 +3,4 @@ export enum RealState {
   Apartment = 'Apartment',
   Room = 'Room',
   Hotel = 'Hotel',
-};
+}

@@ -12,3 +12,5 @@ export const getRandomItems = <T>(collection: T[]): T[] => {
 
 export const getRandomItem = <T>(collection: T[]): T =>
   collection[generateRandomValue(0, collection.length - 1)];
+
+export const getRandomBoolean = () => Math.random() >= 0.5;

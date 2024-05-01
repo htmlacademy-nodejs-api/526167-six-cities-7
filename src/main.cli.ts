@@ -1,6 +1,11 @@
 #!/usr/bin/env node
-import { ImportCommand } from './cli/commands/import.command.js';
-import { CLIApplication, HelpCommand, VersionCommand } from './cli/index.js';
+import {
+  CLIApplication,
+  HelpCommand,
+  VersionCommand,
+  ImportCommand,
+  GenerateCommand,
+} from './cli/index.js';
 
 const init = () => {
   const cliApplication = new CLIApplication();
@@ -8,6 +13,7 @@ const init = () => {
     new HelpCommand(),
     new VersionCommand(),
     new ImportCommand(),
+    new GenerateCommand(),
   ]);
 
   cliApplication.processCommand(process.argv.slice(2));

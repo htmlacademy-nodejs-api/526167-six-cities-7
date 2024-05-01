@@ -1,0 +1,188 @@
+{
+  "api": {
+    "caption": [
+      "Сдается просторная трехкомнатная квартира в центре города",
+      "Уютная однокомнатная квартира в новом доме",
+      "Светлая двушка с ремонтом в спальном районе",
+      "Сдается студия в стиле лофт",
+      "Двухэтажная квартира с видом на парк",
+      "Сдается квартира-студия в бизнес-классе жилого комплекса",
+      "Уютная квартира в тихом районе, рядом с метро",
+      "Сдается просторная четырехкомнатная квартира для большой семьи",
+      "Современная квартира с балконом и видом на город",
+      "Сдается однокомнатная квартира в экологически чистом районе",
+      "Двухкомнатная квартира в стиле минимализм",
+      "Сдается квартира с евроремонтом в центре города",
+      "Уютная квартира с большой кухней и балконом",
+      "Сдается трехкомнатная квартира с мебелью и бытовой техникой",
+      "Светлая и просторная студия в новостройке",
+      "Сдается двухкомнатная квартира в районе с развитой инфраструктурой",
+      "Уютная квартира в старинном доме в историческом центре",
+      "Сдается однокомнатная квартира с новым ремонтом",
+      "Просторная квартира с панорамными окнами и видом на город",
+      "Сдается квартира в новом доме с подземным паркингом"
+    ],
+    "description": [
+      "Просторная трехкомнатная квартира в центре города, рядом с метро и магазинами.",
+      "Уютная однокомнатная квартира в новом доме с современным ремонтом.",
+      "Светлая двухкомнатная квартира с качественным ремонтом в спальном районе.",
+      "Стильная студия в стиле лофт, идеально подходит для молодой пары или одинокого жителя.",
+      "Просторная двухэтажная квартира с панорамным видом на парк.",
+      "Современная студия в бизнес-классе жилого комплекса с высокими потолками и большими окнами.",
+      "Уютная квартира в тихом районе, рядом с метро и зеленой зоной для прогулок.",
+      "Просторная четырехкомнатная квартира, идеально подходит для большой семьи или компании друзей.",
+      "Современная квартира с балконом и захватывающим видом на город.",
+      "Однокомнатная квартира в экологически чистом районе, рядом с парком и озером.",
+      "Стильная двухкомнатная квартира в стиле минимализм с большим количеством света.",
+      "Квартира с евроремонтом в центре города, рядом с магазинами и кафе.",
+      "Уютная квартира с большой кухней и балконом, идеально подходит для семьи.",
+      "Трехкомнатная квартира с мебелью и бытовой техникой, готова к заселению.",
+      "Светлая и просторная студия в новостройке с современным дизайном.",
+      "Двухкомнатная квартира в районе с развитой инфраструктурой, рядом с магазинами и школами.",
+      "Уютная квартира в старинном доме в историческом центре города.",
+      "Однокомнатная квартира с новым ремонтом, готова к заселению.",
+      "Просторная квартира с панорамными окнами и захватывающим видом на город.",
+      "Современная квартира в новом доме с подземным паркингом и охраной."
+    ],
+    "cities": [
+      "Paris",
+      "Cologne",
+      "Brussels",
+      "Amsterdam",
+      "Hamburg",
+      "Dusseldorf"
+    ],
+    "thumbnails": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDAZevll2SvPGaxuj6wnmDrYk9ET-_HZcV74sJSCHRjg&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDAZevll2SvPGaxuj6wnmDrYk9ET-_HZcV74sJSCHRjg&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDAZevll2SvPGaxuj6wnmDrYk9ET-_HZcV74sJSCHRjg&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDAZevll2SvPGaxuj6wnmDrYk9ET-_HZcV74sJSCHRjg&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDAZevll2SvPGaxuj6wnmDrYk9ET-_HZcV74sJSCHRjg&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDAZevll2SvPGaxuj6wnmDrYk9ET-_HZcV74sJSCHRjg&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDAZevll2SvPGaxuj6wnmDrYk9ET-_HZcV74sJSCHRjg&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDAZevll2SvPGaxuj6wnmDrYk9ET-_HZcV74sJSCHRjg&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDAZevll2SvPGaxuj6wnmDrYk9ET-_HZcV74sJSCHRjg&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDAZevll2SvPGaxuj6wnmDrYk9ET-_HZcV74sJSCHRjg&s"
+    ],
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDAZevll2SvPGaxuj6wnmDrYk9ET-_HZcV74sJSCHRjg&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDAZevll2SvPGaxuj6wnmDrYk9ET-_HZcV74sJSCHRjg&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDAZevll2SvPGaxuj6wnmDrYk9ET-_HZcV74sJSCHRjg&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDAZevll2SvPGaxuj6wnmDrYk9ET-_HZcV74sJSCHRjg&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDAZevll2SvPGaxuj6wnmDrYk9ET-_HZcV74sJSCHRjg&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDAZevll2SvPGaxuj6wnmDrYk9ET-_HZcV74sJSCHRjg&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDAZevll2SvPGaxuj6wnmDrYk9ET-_HZcV74sJSCHRjg&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDAZevll2SvPGaxuj6wnmDrYk9ET-_HZcV74sJSCHRjg&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDAZevll2SvPGaxuj6wnmDrYk9ET-_HZcV74sJSCHRjg&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDAZevll2SvPGaxuj6wnmDrYk9ET-_HZcV74sJSCHRjg&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDAZevll2SvPGaxuj6wnmDrYk9ET-_HZcV74sJSCHRjg&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDAZevll2SvPGaxuj6wnmDrYk9ET-_HZcV74sJSCHRjg&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDAZevll2SvPGaxuj6wnmDrYk9ET-_HZcV74sJSCHRjg&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDAZevll2SvPGaxuj6wnmDrYk9ET-_HZcV74sJSCHRjg&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDAZevll2SvPGaxuj6wnmDrYk9ET-_HZcV74sJSCHRjg&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDAZevll2SvPGaxuj6wnmDrYk9ET-_HZcV74sJSCHRjg&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDAZevll2SvPGaxuj6wnmDrYk9ET-_HZcV74sJSCHRjg&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDAZevll2SvPGaxuj6wnmDrYk9ET-_HZcV74sJSCHRjg&s"
+    ],
+    "realStateTypes": ["House", "Apartment", "Room", "Hotel"],
+    "facilities": [
+      "Breakfast",
+      "Air conditioning",
+      "Laptop friendly workspace",
+      "Baby seat",
+      "Washer",
+      "Towels",
+      "Fridge"
+    ],
+    "users": [
+      {
+        "id": "1",
+        "name": "John Doe",
+        "email": "john@gmail.com",
+        "avatar": "https://randomuser.me/api/portraits/men/1.jpg",
+        "avatarUrl": "https://randomuser.me/api/portraits/men/1.jpg",
+        "type": "Базовый"
+      },
+      {
+        "id": "2",
+        "name": "Jane Smith",
+        "email": "jane@gmail.com",
+        "avatar": "https://randomuser.me/api/portraits/women/2.jpg",
+        "avatarUrl": "https://randomuser.me/api/portraits/women/2.jpg",
+        "type": "Базовый"
+      },
+      {
+        "id": "3",
+        "name": "Robert Johnson",
+        "email": "robert@gmail.com",
+        "avatar": "https://randomuser.me/api/portraits/men/3.jpg",
+        "avatarUrl": "https://randomuser.me/api/portraits/men/3.jpg",
+        "type": "pro"
+      },
+      {
+        "id": "4",
+        "name": "Emily Davis",
+        "email": "emily@gmail.com",
+        "avatar": "https://randomuser.me/api/portraits/women/4.jpg",
+        "avatarUrl": "https://randomuser.me/api/portraits/women/4.jpg",
+        "type": "Базовый"
+      },
+      {
+        "id": "5",
+        "name": "James Miller",
+        "email": "james@gmail.com",
+        "avatar": "https://randomuser.me/api/portraits/men/5.jpg",
+        "avatarUrl": "https://randomuser.me/api/portraits/men/5.jpg",
+        "type": "Базовый"
+      },
+      {
+        "id": "6",
+        "name": "Jessica Brown",
+        "email": "jessica@gmail.com",
+        "avatar": "https://randomuser.me/api/portraits/women/6.jpg",
+        "avatarUrl": "https://randomuser.me/api/portraits/women/6.jpg",
+        "type": "Базовый"
+      },
+      {
+        "id": "7",
+        "name": "Michael Taylor",
+        "email": "michael@gmail.com",
+        "avatar": "https://randomuser.me/api/portraits/men/7.jpg",
+        "avatarUrl": "https://randomuser.me/api/portraits/men/7.jpg",
+        "type": "pro"
+      },
+      {
+        "id": "8",
+        "name": "Sarah Wilson",
+        "email": "sarah@gmail.com",
+        "avatar": "https://randomuser.me/api/portraits/women/8.jpg",
+        "avatarUrl": "https://randomuser.me/api/portraits/women/8.jpg",
+        "type": "Базовый"
+      },
+      {
+        "id": "9",
+        "name": "William Moore",
+        "email": "william@gmail.com",
+        "avatar": "https://randomuser.me/api/portraits/men/9.jpg",
+        "avatarUrl": "https://randomuser.me/api/portraits/men/9.jpg",
+        "type": "pro"
+      },
+      {
+        "id": "10",
+        "name": "Elizabeth Thomas",
+        "email": "elizabeth@gmail.com",
+        "avatar": "https://randomuser.me/api/portraits/women/10.jpg",
+        "avatarUrl": "https://randomuser.me/api/portraits/women/10.jpg",
+        "type": "Базовый"
+      },
+      {
+        "id": "11",
+        "name": "David Jackson",
+        "email": "david@gmail.com",
+        "avatar": "https://randomuser.me/api/portraits/men/11.jpg",
+        "avatarUrl": "https://randomuser.me/api/portraits/men/11.jpg",
+        "type": "Базовый"
+      }
+    ]
+  }
+}

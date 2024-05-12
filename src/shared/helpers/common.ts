@@ -14,3 +14,8 @@ export const getRandomItem = <T>(collection: T[]): T =>
   collection[generateRandomValue(0, collection.length - 1)];
 
 export const getRandomBoolean = () => Math.random() >= 0.5;
+
+export const getErrorMessage = (error: unknown): string => {
+  const errorMessage = error instanceof Error ? error.message : 'Unknown error';
+  return errorMessage;
+};

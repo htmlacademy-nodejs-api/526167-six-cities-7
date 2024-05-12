@@ -98,6 +98,7 @@ export class TSVFileReader extends EventEmitter implements FileReader {
       encoding: 'utf-8',
     });
 
+
     let remainingData = '';
     let nextLinePosition = -1;
     let importedRowCount = 0;
@@ -106,14 +107,16 @@ export class TSVFileReader extends EventEmitter implements FileReader {
       remainingData += chunk.toString();
 
       while ((nextLinePosition = remainingData.indexOf('\n')) >= 0) {
-        const line = remainingData.slice(0, nextLinePosition + 1);
-        remainingData = remainingData.slice(0, nextLinePosition + 1);
-        importedRowCount += 1;
-        const parsedOffer = this.parseLineToOffer(line);
-        this.emit('offer', parsedOffer);
+        const completeRow = remainingData.slice(0, nextLinePosition + 1);
+        remainingData = remainingData.slice(++nextLinePosition);
+        importedRowCount++;
+
+        const parsedOffer = this.parseLineToOffer(completeRow);
+        this.emit('line', parsedOffer);
       }
     }
 
     this.emit('end', importedRowCount);
   }
+
 }

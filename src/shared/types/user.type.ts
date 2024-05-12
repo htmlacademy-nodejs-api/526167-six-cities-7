@@ -3,5 +3,5 @@ export type User = {
   email: string;
   avatar?: string;
   avatarUrl?: string;
-  type: 'base' | 'pro';
+  type: 'Базовый' | 'pro';
 };

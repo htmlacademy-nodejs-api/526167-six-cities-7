@@ -5,4 +5,4 @@ export enum Cities {
   Amsterdam = 'Amsterdam',
   Hamburg = 'Hamburg',
   Dusseldorf = 'Dusseldorf',
-};
+}

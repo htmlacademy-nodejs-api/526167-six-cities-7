@@ -1,5 +1,4 @@
 import path from 'node:path';
-import fs from 'node:fs';
 import { Logger as PinoInstance, pino, transport } from 'pino';
 import { Logger } from './logger.interface.js';
 import { getCurrentDirectoryPath } from '../../helpers/index.js';
@@ -16,12 +15,22 @@ export class PinoLogger implements Logger {
       logFilePath
     );
 
-    const fileTransport = transport({
-      target: 'pino/file',
-      options: { destinationPath },
+    const multiTransport = transport({
+      targets: [
+        {
+          target: 'pino/file',
+          options: { destinationPath },
+          level: 'debug',
+        },
+        {
+          target: 'pino/file',
+          level: 'info',
+          options: {},
+        }
+      ]
     });
 
-    this.logger = pino({}, fileTransport);
+    this.logger = pino({}, multiTransport);
   }
 
   info(message: string, ...args: unknown[]): void {
